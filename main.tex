@@ -1,0 +1,36 @@
+% file: main.tex
+\documentclass[]{deedy-resume-openfont}
+
+\begin{document}
+
+\lastupdated
+
+\namesection{Joseph}{Corrado}{\urlstyle{same}\url{} \\
+        \href{mailto:joseph.corrado@nyu.edu}{joseph.corrado@nyu.edu} |
+        516-680-6221}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+\input{sections/education.tex}
+\input{sections/links.tex}
+\input{sections/coursework.tex}
+\input{sections/skills.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+\input{sections/experience.tex}
+\input{sections/research.tex}
+\input{sections/awards.tex}
+\input{sections/societies.tex}
+\end{minipage} 
+\end{document}
