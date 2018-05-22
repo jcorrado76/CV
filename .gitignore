@@ -3,4 +3,7 @@
 *.log
 *.out
 *.latexmain
+*.fdb_latexmk
+*.fls
+*.xdv
 fonts/
