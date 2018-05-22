@@ -6,4 +6,5 @@
 *.fdb_latexmk
 *.fls
 *.xdv
+*.swp
 fonts/
